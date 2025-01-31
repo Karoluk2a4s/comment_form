@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #5C7285;
+}
+
+.leave-comment-block {
+    background-color: #818C78;
+    color: #E2E0C8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    font-size: 18px;
+}
+.name-text {    
+    resize: none; 
+    width: 250px;
+    border-radius: 8px;
+}
+
+.email-text {    
+    resize: none; 
+    width: 250px;
+    border-radius: 8px;
+
+}
+
+.comment-text {    
+    resize: none; 
+    width: 400px;
+    height: 100px;
+    border-radius: 8px;
+
+}
+
+.submit_button {
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+}
+.submit_button:hover {
+    background-color: #5C7285;
+    color: #E2E0C8;
+    transform: scale(1.1);
+}
