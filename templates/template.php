@@ -9,7 +9,7 @@
 <body>
 
     <div class="leave-comment-block">
-        <h2>Leave comment</h2>
+        <h2>Palikte komentarą</h2>
 
         <form action="index.php" method="POST">
             <h3>Vardas*</h3>
@@ -20,7 +20,7 @@
             <textarea class="comment-text" name="comment_text" required></textarea>
             <br><br>
             <button class="submit_button" type="submit">Pateikti</button>
-            
+
         </form>
 
     </div>
